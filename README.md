@@ -124,6 +124,16 @@ The two highest-ranked features were:
 
 These findings suggest that the temporal variability of acoustic characteristics provides useful information for distinguishing authentic and synthetic speech within the selected dataset.
 
+## Visualizations
+
+### Confusion Matrix
+
+![Confusion Matrix](figures/ml_confusion_matrix.png)
+
+### Feature Importance
+
+![Feature Importance](figures/random_forest_feature_importance.png)
+
 ## 5. Installation
 
 Clone the repository:
