@@ -23,12 +23,12 @@ from sklearn.svm import SVC
 
 # %% Configuration
 
-PRACTICAL_DIR = Path(__file__).resolve().parent.parent
+PRACTICAL_DIR = Path(__file__).resolve().parent
 
 
 @dataclass(frozen=True)
 class ExperimentConfig:
-    base_dir: Path = Path("dataset/LA")
+    base_dir: Path = PRACTICAL_DIR / "dataset" / "LA"
     output_dir: Path = PRACTICAL_DIR
     random_seed: int = 42
     samples_per_class: int = 300
