@@ -28,7 +28,7 @@ PRACTICAL_DIR = Path(__file__).resolve().parent.parent
 
 @dataclass(frozen=True)
 class ExperimentConfig:
-    base_dir: Path = Path("/Users/paydex/Downloads/LA_/LA")
+    base_dir: Path = Path("dataset/LA")
     output_dir: Path = PRACTICAL_DIR
     random_seed: int = 42
     samples_per_class: int = 300
