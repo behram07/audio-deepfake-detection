@@ -129,7 +129,7 @@ These findings suggest that the temporal variability of acoustic characteristics
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/audio-deepfake-detection.git
+git clone https://github.com/behram07/audio-deepfake-detection.git
 cd audio-deepfake-detection
 ```
 
